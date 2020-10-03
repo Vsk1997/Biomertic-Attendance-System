@@ -32,8 +32,8 @@ def camera_on():
         dic[i] = []
     for i in range(len(dn)):
         dic[dn[i]].append(list_.change_to_list(de[i][0]))
-    for i in range(len(10)):
-        print(............)
+    if(len(dn)):
+        print("length:",len(dn))
     while True:
         r,live = v.read()
         i  = cv2.resize(live,(200,200))
